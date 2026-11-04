@@ -22,7 +22,7 @@ st.set_page_config(
 # BACKGROUND IMAGE
 # =========================
 def set_bg_image():
-    image_path = r"C:\Users\dell\OneDrive\ドキュメント\4112932.jpg"
+    image_path = "4112932.jpg"
     try:
         with open(image_path, "rb") as img_file:
             encoded_string = base64.b64encode(img_file.read()).decode()
